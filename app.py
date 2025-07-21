@@ -3,7 +3,7 @@ from predict import predict_fire
 from simulate import simulate_fire_spread
 from visualize import show_gif
 
-st.set_page_config(page_title="🔥 FireSentinel Dashboard", layout="wide")
+st.set_page_config(page_title="🔥 FireSentinel dash", layout="wide")
 st.title("🔥 FireSentinel Forest Fire Prediction & Simulation")
 
 uploaded_file = st.file_uploader("Upload GeoTIFF Input Stack (.tif)", type=["tif"])
